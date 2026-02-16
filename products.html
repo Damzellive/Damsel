@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop the latest collection at Damsel - Elegant dresses, tops, and more.">
+    <title>Products | Damsel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Damsel Logo">
+                </a>
+                <span class="slogan">Your Stylish Wearing Brand</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-bag"></i></a>
+                <div class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-header">
+            <h3>Menu</h3>
+            <button id="close-menu-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <ul class="mobile-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h2>Our Collection</h2>
+            <p>Discover elegance designed for you.</p>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section section-padding">
+        <div class="container">
+            <div class="product-grid" id="all-products-grid">
+
+                <!-- Product 1 -->
+                <div class="product-card" onclick="openProductGallery('p1')">
+                    <div class="product-image">
+                        <img src="images/products/p1.jpg" alt="Rose Petal Midi Dress">
+                        <div class="product-overlay">
+                            <span class="view-gallery-text">View Gallery</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Rose Petal Midi Dress</h3>
+                        <p class="price">$89.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" onclick="openProductGallery('p2')">
+                    <div class="product-image">
+                        <img src="images/products/p2.jpg" alt="Velvet Evening Gown">
+                        <div class="product-overlay">
+                            <span class="view-gallery-text">View Gallery</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Velvet Evening Gown</h3>
+                        <p class="price">$145.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" onclick="openProductGallery('p3')">
+                    <div class="product-image">
+                        <img src="images/products/p3.jpg" alt="Classic Beige Trench">
+                        <div class="product-overlay">
+                            <span class="view-gallery-text">View Gallery</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Beige Trench</h3>
+                        <p class="price">$120.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" onclick="openProductGallery('p4')">
+                    <div class="product-image">
+                        <img src="images/products/p4.jpg" alt="Floral Summer Dress">
+                        <div class="product-overlay">
+                            <span class="view-gallery-text">View Gallery</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Floral Summer Dress</h3>
+                        <p class="price">$75.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card" onclick="openProductGallery('p5')">
+                    <div class="product-image">
+                        <img src="images/products/p5.jpg" alt="Elegant Black Gown">
+                        <div class="product-overlay">
+                            <span class="view-gallery-text">View Gallery</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Elegant Black Gown</h3>
+                        <p class="price">$160.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card" onclick="openProductGallery('p6')">
+                    <div class="product-image">
+                        <img src="images/products/p6.jpg" alt="Winter Coat">
+                        <div class="product-overlay">
+                            <span class="view-gallery-text">View Gallery</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Winter Coat</h3>
+                        <p class="price">$130.00</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col brand-col">
+                <img src="images/logo.png" alt="Damsel Logo" style="height: 50px; margin-bottom: 15px;">
+                <p>Your Stylish Wearing Brand.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/damzel_live" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com/Damzel" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-col links-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col contact-col">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Visal Sewana, Delgoda</li>
+                    <li><i class="fas fa-phone-alt"></i> 074 115 9633 | 071 704 0662</li>
+                    <li><i class="fas fa-envelope"></i> damzellive@gmail.com</li>
+                </ul>
+                <a href="https://wa.me/94728983133" class="btn-whatsapp-footer"><i class="fab fa-whatsapp"></i> Chat on
+                    WhatsApp</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Damsel Brand. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Tools -->
+    <a href="#header" class="btn-scroll-top" id="scrollTopBtn"><i class="fas fa-arrow-up"></i></a>
+    <a href="https://wa.me/94728983133" target="_blank" class="btn-floating-whatsapp"><i
+            class="fab fa-whatsapp"></i></a>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="gallery-modal">
+        <div class="gallery-content">
+            <button class="close-gallery" id="close-gallery"><i class="fas fa-times"></i></button>
+
+            <div class="gallery-slider">
+                <button class="slider-btn prev-btn" id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-image-container">
+                    <img id="gallery-image" src="" alt="Product Image">
+                </div>
+                <button class="slider-btn next-btn" id="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+
+            <div class="gallery-info">
+                <div class="gallery-text">
+                    <h2 id="gallery-title">Product Name</h2>
+                    <p id="gallery-price">$0.00</p>
+                </div>
+                <a href="#" id="gallery-whatsapp-btn" target="_blank" class="btn btn-whatsapp gallery-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
