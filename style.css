@@ -330,7 +330,7 @@ h6 {
    ========================================= */
 .hero {
     height: 90vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/hero-banner.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../hero-banner.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1009,4 +1009,5 @@ h6 {
         gap: 15px;
         text-align: center;
     }
+
 }
