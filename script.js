@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'p6': {
             name: "Winter Coat",
             price: "$130.00",
-            images: ["p6.jpg"]
+            images: ["p6-1.jpg", "p6-2.jpg", "p6-3.jpg"]
         }
     };
 
@@ -202,6 +202,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
+
 
 
 
