@@ -898,12 +898,14 @@ h6 {
 }
 
 .gallery-slider {
-    flex: 1;
     position: relative;
     background-color: #f4f4f4;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 15px;
+    max-height: 70vh;
+    overflow: hidden;
 }
 
 .slider-image-container {
@@ -949,24 +951,27 @@ h6 {
 }
 
 .gallery-info {
-    padding: 20px;
+    padding: 18px 20px;
     background-color: #fff;
     border-top: 1px solid #eee;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .gallery-text h2 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.3;
 }
 
 .gallery-text p {
     margin: 0;
     color: var(--color-accent);
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .gallery-whatsapp {
@@ -1014,4 +1019,5 @@ h6 {
     }
 
 }
+
 
