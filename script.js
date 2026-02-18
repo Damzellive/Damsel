@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'p1': {
             name: "Rose Petal Midi Dress",
             price: "$89.00",
-            images: ["p1.jpg"] // Add more like "p1-2.jpg" when you have them
+            images: ["p1-1.jpg", "p1-2.jpg", "p1-3.jpg"] // Add more like "p1-2.jpg" when you have them
         },
         'p2': {
             name: "Velvet Evening Gown",
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!currentProduct) return;
 
         // Path: images/products/filename.jpg
-        const path = `images/products/${currentProduct.images[currentIndex]}`;
+        const path = `${currentProduct.images[currentIndex]}`;
 
         // Fade out
         modalImg.style.opacity = '0.5';
@@ -202,3 +202,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
+
