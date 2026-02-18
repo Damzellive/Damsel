@@ -82,22 +82,22 @@ document.addEventListener('DOMContentLoaded', function () {
         'p2': {
             name: "Velvet Evening Gown",
             price: "$145.00",
-            images: ["p2.jpg"]
+            images: ["p2-1.jpg", "p2-2.jpg"]
         },
         'p3': {
             name: "Classic Beige Trench",
             price: "$120.00",
-            images: ["p3.jpg"]
+            images: ["p3-1.jpg", "p3-2.jpg"]
         },
         'p4': {
             name: "Floral Summer Dress",
             price: "$75.00",
-            images: ["p4.jpg"]
+            images: ["p4-1.jpg", "p4-2.jpg"]
         },
         'p5': {
             name: "Elegant Black Gown",
             price: "$160.00",
-            images: ["p5.jpg"]
+            images: ["p5-1.jpg", "p5-2.jpg", "p5-3.jpg"]
         },
         'p6': {
             name: "Winter Coat",
@@ -202,5 +202,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
+
 
 
