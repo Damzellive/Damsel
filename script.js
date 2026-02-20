@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
         • Available sizes
         • Available colours
                 
-        Thank you 😊`;
+        Thank you `;
 
         whatsappBtn.href = `https://wa.me/94728983133?text=${encodeURIComponent(orderMsg)}`;
 
@@ -215,6 +215,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
+
 
 
 
