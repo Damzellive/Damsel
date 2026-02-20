@@ -131,9 +131,22 @@ document.addEventListener('DOMContentLoaded', function () {
         modalPrice.textContent = product.price;
 
         // Set WhatsApp Link
-        const orderMsg = `I want to order ${product.name} from Damsel`;
+        //const orderMsg = `I want to order ${product.name} from Damsel`;
+        //whatsappBtn.href = `https://wa.me/94728983133?text=${encodeURIComponent(orderMsg)}`;
+        const orderMsg =
+        `Hello Damsel 👋
+        
+        I'm interested in the *${product.name}*.
+        
+        Could you please tell me:
+        • Available sizes
+        • Available colours
+                
+        Thank you 😊`;
+
         whatsappBtn.href = `https://wa.me/94728983133?text=${encodeURIComponent(orderMsg)}`;
 
+        
         // Show Modal
         updateImage();
         modal.classList.add('open');
@@ -202,6 +215,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
+
 
 
 
